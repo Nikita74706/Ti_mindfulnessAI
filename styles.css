@@ -58,7 +58,7 @@ nav a:hover {
 .div_hh {
     border-radius: 23px;
     background-color: rgba(150, 150, 150, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
-    color: #c1c4e4;
+    color: #e3e5ff;
     width: 60%;
     margin: 25px auto ;
     text-align: center;
