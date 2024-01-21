@@ -19,7 +19,7 @@ header {
     background-image: url('triang.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ffffff; /* Set the base text color */
+    color: rgb(255, 255, 255); /* Set the base text color */
     padding: 10px;
     text-align: center;
     overflow: hidden;
@@ -58,7 +58,7 @@ nav a:hover {
 .div_hh {
     border-radius: 23px;
     background-color: rgba(150, 150, 150, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
-    color: #e3e5ff;
+    color: rgb(234, 240, 255);
     width: 60%;
     margin: 25px auto ;
     text-align: center;
