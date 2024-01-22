@@ -58,7 +58,7 @@ nav a:hover {
 
 .div_hh {
     border-radius: 23px;
-    background-color: rgba(121, 120, 124, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
+    background-color: rgba(40, 40, 44, 0.9); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
     color: rgb(234, 240, 255);
     width: 70%;
     margin: 25px auto ;
@@ -193,32 +193,32 @@ h1 {
 .div_hh .alternating-content p {
     max-width: 50%; /* Adjust the description width as needed */
     text-align: left;
-    margin-left: 20px; /* Add spacing between image and text */
+    margin-left: 20px; 
 }
 
-#start {
-    font-size: 100px;
-}
 
-.div_hh .get_started {
+.get_started {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     background-color: transparent;
 }
 
-.div_hh .get_started img {
-    max-width: 45%; /* Adjust the image width as needed */
-    border-radius: 23px;
-    max-width: 150px;
+.get_started img {
+    width: 45%; /* Dostosuj szerokość obrazka według potrzeb */
+    max-width: 200px; /* Maksymalna szerokość obrazka */
+    height: auto; /* Zachowaj proporcje obrazka */
+    border-radius: 8px;
 }
 
-.div_hh .get_started p {
-    max-width: 50%; /* Adjust the description width as needed */
+.get_started h2 {
+    width: 45%; /* Dostosuj szerokość nagłówka według potrzeb */
     text-align: left;
-    margin-left: 20px; /* Add spacing between image and text */
+    margin-left: 20px; /* Dodaj odstęp między obrazkiem a tekstem */
 }
+
+/**/
+
 
 
 .input-container {
