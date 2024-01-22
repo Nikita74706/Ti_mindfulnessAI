@@ -216,7 +216,6 @@ h1 {
     width: 45%; /* Dostosuj szerokość obrazka według potrzeb */
     max-width: 120px; /* Maksymalna szerokość obrazka */
     height: auto; /* Zachowaj proporcje obrazka */
-    border-radius: 8px;
 }
 
 .get_started h2 {
