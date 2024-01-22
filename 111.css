@@ -1,26 +1,4 @@
 
-body {
-    background-image: url('https://scontent.fpoz2-1.fna.fbcdn.net/v/t1.15752-9/419934876_766007515568915_6382899586088626807_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=WpFB7-Oqgm0AX8uspvO&_nc_ht=scontent.fpoz2-1.fna&oh=03_AdRs3U3WcLvHNHo_VViSXZIOs61qqxIcjRAk2EJw2TCDqw&oe=65D366E5');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-}
-
-header {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
 
 section {
     margin: 15px;
