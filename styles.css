@@ -57,13 +57,18 @@ nav a:hover {
 
 .div_hh {
     border-radius: 23px;
-    background-color: rgba(150, 150, 150, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
+    background-color: rgba(121, 120, 124, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
     color: rgb(234, 240, 255);
-    width: 65%;
+    width: 70%;
     margin: 25px auto ;
     text-align: center;
     font-size: 17px;
 }
+
+.ggh {
+    background-color: rgba(89, 89, 95, 0.35);
+}
+
 
 .divf {
     margin-bottom: 50px;
