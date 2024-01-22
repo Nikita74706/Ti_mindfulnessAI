@@ -1,5 +1,5 @@
 body {
-    background-image: url('bg5.jpg');
+    background-image: url('main_imgs/bg5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ body {
 
 header {
     position: relative;
-    background-image: url('triang.jpg');
+    background-image: url('main_imgs/triang.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255); /* Set the base text color */
@@ -83,7 +83,7 @@ div {
 
 
 footer {
-    background-image: url('triang.jpg');
+    background-image: url('main_imgs/triang.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
