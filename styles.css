@@ -109,7 +109,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background-color: rgba(121, 120, 124, 0.35);
+    background-color:  rgba(121, 120, 124, 0.35);
     border-radius: 23px;
     width: 20%; /* Możesz dostosować na podstawie preferencji */
 }
@@ -161,6 +161,19 @@ button:hover {
     padding: 0;
   }
 
-.price_levels li{
+.price_levels li {
     text-align: left;
+}
+
+.get_started {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* lub justify-content: space-between; */
+    padding: 0; /* Usuń domyślne wcięcie dla elementów listy */
+    list-style-type: none; /* Usuń punkty przed elementami listy */
+}
+
+.get_started li {
+    flex-basis: calc(0); /* Aby mieć odstęp między elementami, odjęto 20px */
+
 }
