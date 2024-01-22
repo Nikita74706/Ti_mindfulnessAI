@@ -16,7 +16,7 @@ body {
 
 header {
     position: relative;
-    background-image: url('main_imgs/triang.jpg');
+    /*background-image: url('main_imgs/triang.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255); /* Set the base text color */
@@ -32,7 +32,7 @@ header::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, #8f8383, #0066ff); /* Gradient for overlay */
+    /*background: linear-gradient(to right, #8f8383, #0066ff); *//* Gradient for overlay */
     mix-blend-mode: overlay; /* Blend mode for the overlay */
 }
 
@@ -59,7 +59,7 @@ nav a:hover {
     border-radius: 23px;
     background-color: rgba(150, 150, 150, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
     color: rgb(234, 240, 255);
-    width: 60%;
+    width: 65%;
     margin: 25px auto ;
     text-align: center;
     font-size: 17px;
@@ -70,7 +70,8 @@ nav a:hover {
 }
 
 div {
-    background-color: rgba(0, 0, 0, 0.97); 
+    /*background-color: rgba(0, 0, 0, 0.97); */
+    background-color: rgba(12, 11, 11, 1); 
     color: #dadada;
     margin: 0 auto ;
     text-align: center;
