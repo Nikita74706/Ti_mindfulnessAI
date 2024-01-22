@@ -215,14 +215,16 @@ h1 {
 
 .get_started img {
     width: 45%; /* Dostosuj szerokość obrazka według potrzeb */
-    max-width: 120px; /* Maksymalna szerokość obrazka */
+    max-width: 100px; /* Maksymalna szerokość obrazka */
     height: auto; /* Zachowaj proporcje obrazka */
+    margin: 0 auto;
 }
 
 .get_started h2 {
     width: 45%; /* Dostosuj szerokość nagłówka według potrzeb */
     text-align: left;
-    margin-left: 20px; /* Dodaj odstęp między obrazkiem a tekstem */
+    font-size: xx-large;
+    margin-left: 0;
 }
 
 /**/
