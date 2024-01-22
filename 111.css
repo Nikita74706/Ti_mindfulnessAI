@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url('https://scontent.fpoz2-1.fna.fbcdn.net/v/t1.15752-9/419729779_1593375718092421_1081524876813076726_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=0jBkCWI2NT4AX98OjqR&_nc_ht=scontent.fpoz2-1.fna&oh=03_AdToqqnvxFSaklEESn6ZQAgFhN7YXFUAh3Qp2DpYVST3iA&oe=65D3649A');
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -22,18 +22,6 @@ header {
     text-align: center;
 }
 
-nav {
-    /* background-color: rgba(49, 49, 49, 0.98); */ 
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-}
-
-nav a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: rgb(244, 244, 244);
-}
 
 section {
     margin: 15px;
