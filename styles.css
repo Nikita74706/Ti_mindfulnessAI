@@ -107,9 +107,43 @@ footer {
 .logoimg {
     display: inline-block;
     margin: 10px;
+    background-color: rgba(121, 120, 124, 0.35);
+    border-radius: 23px;
+    width: 20%;
+    height: 40%;
 }
 
 .logoimg img {
     width: 100px; /* Dostosuj szerokość obrazków według potrzeb */
     height: auto; /* Zachowaj proporcje */
+    border-radius: 23px;
+}
+
+.logoimg h2 {
+    margin: 8px;
+}
+
+.pricing {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+button {
+    display: inline-block;
+    padding: 15px 20px; /* Dostosuj padding do preferencji */
+    font-size: 16px; /* Dostosuj rozmiar czcionki do preferencji */
+    width: 150px; /* Dostosuj szerokość przycisku do preferencji */
+    height: 50px; /* Dostosuj wysokość przycisku do preferencji */
+    text-align: center;
+    text-decoration: none;
+    background-color: #04115a; /* Kolor tła przycisku */
+    color: #fff; /* Kolor tekstu przycisku */
+    border-radius: 8px; /* Zaokrąglenie narożników */
+    border: none; /* Usunięcie obramowania */
+    cursor: pointer;
+    }
+
+button:hover {
+    background-color: #121c6a; /* Kolor tła przycisku po najechaniu myszką */
 }
