@@ -198,3 +198,23 @@ h1 {
 #start {
     font-size: 100px;
 }
+
+.div_hh .get_started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.div_hh .get_started img {
+    max-width: 45%; /* Adjust the image width as needed */
+    border-radius: 23px;
+    max-width: 150px;
+}
+
+.div_hh .get_started p {
+    max-width: 50%; /* Adjust the description width as needed */
+    text-align: left;
+    margin-left: 20px; /* Add spacing between image and text */
+}
