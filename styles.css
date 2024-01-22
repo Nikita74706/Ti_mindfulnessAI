@@ -58,7 +58,7 @@ nav a:hover {
 
 .div_hh {
     border-radius: 23px;
-    background-color: rgba(121, 120, 124, 0.35); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
+    background-color:  rgba(40, 40, 44, 0.9); /* Adjust the last value (0.7) for the desired opacity (0 is transparent, 1 is opaque) */
     color: rgb(234, 240, 255);
     width: 70%;
     margin: 25px auto ;
@@ -109,7 +109,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background-color:  rgba(121, 120, 124, 0.35);
+    background-color:   rgba(40, 40, 44, 0.9);;
     border-radius: 23px;
     width: 20%; /* Możesz dostosować na podstawie preferencji */
 }
@@ -165,15 +165,36 @@ button:hover {
     text-align: left;
 }
 
-.get_started {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* lub justify-content: space-between; */
-    padding: 0; /* Usuń domyślne wcięcie dla elementów listy */
-    list-style-type: none; /* Usuń punkty przed elementami listy */
+
+
+
+
+/*czesc arkusza dla home*/
+
+h1 {
+    font-size: 30px;
 }
 
-.get_started li {
-    flex-basis: calc(0); /* Aby mieć odstęp między elementami, odjęto 20px */
+.div_hh .alternating-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
 
+.div_hh .alternating-content img {
+    max-width: 45%; /* Adjust the image width as needed */
+    border-radius: 23px;
+    max-width: 150px;
+}
+
+.div_hh .alternating-content p {
+    max-width: 50%; /* Adjust the description width as needed */
+    text-align: left;
+    margin-left: 20px; /* Add spacing between image and text */
+}
+
+#start {
+    font-size: 100px;
 }
