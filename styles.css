@@ -211,20 +211,20 @@ h1 {
     align-items: center;
     margin-bottom: 20px;
     background-color: transparent;
+    margin-left: 90px;
 }
 
 .get_started img {
     width: 45%; /* Dostosuj szerokość obrazka według potrzeb */
-    max-width: 100px; /* Maksymalna szerokość obrazka */
+    max-width: 110px; /* Maksymalna szerokość obrazka */
     height: auto; /* Zachowaj proporcje obrazka */
-    margin: 0 auto;
 }
 
 .get_started h2 {
     width: 45%; /* Dostosuj szerokość nagłówka według potrzeb */
     text-align: left;
     font-size: xx-large;
-    margin-left: 0;
+    margin-left: 40px;
 }
 
 /**/
