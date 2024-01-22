@@ -110,6 +110,7 @@ footer {
     align-items: center;
     margin: 10px;
     background-color: rgba(121, 120, 124, 0.35);
+    background-color:   rgba(40, 40, 44, 0.9);;
     border-radius: 23px;
     width: 20%; /* Możesz dostosować na podstawie preferencji */
 }
@@ -225,6 +226,6 @@ button {
 }
 
 button:hover {
-    background-color:rgba(25, 25, 27, 0.97);
+    background-color:rgba(45, 45, 48, 0.97);
 
 }
