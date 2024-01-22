@@ -109,7 +109,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background-color:  rgba(121, 120, 124, 0.35);
+    background-color: rgba(121, 120, 124, 0.35);
     border-radius: 23px;
     width: 20%; /* Możesz dostosować na podstawie preferencji */
 }
@@ -177,6 +177,54 @@ button:hover {
     padding: 0;
   }
 
-.price_levels li {
+.price_levels li{
     text-align: left;
+}
+
+
+
+.input-container {
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    margin: 25px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 23px;
+    display: inline-block;
+    margin-bottom: 10px; /* Add space below the input containers */
+    box-sizing: border-box; /* Include padding in width calculation */
+
+    /* Initial width for larger screens */
+    width: calc(50% - 60px);
+
+}
+
+@media (max-width: 768px) {
+    .input-container {
+        width: calc(100% - 20px); /* Full width on smaller screens */
+    }
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    height: auto;
+    resize: none;
+    /* Add an explicit width property */
+    width: 100%;
+}
+
+button {
+    background-color: rgb(36, 36, 36);
+
+}
+
+button:hover {
+    background-color:rgba(25, 25, 27, 0.97);
+
 }
