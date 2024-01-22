@@ -151,25 +151,9 @@ button {
     cursor: pointer;
     }
 
-    /*
 button:hover {
-    background-color: #121c6a; /* Kolor tła przycisku po najechaniu myszką 
-}*/
-
-.button_low:hover {
-    background-color: #a3a3a3;
+    background-color: #121c6a; /* Kolor tła przycisku po najechaniu myszką */
 }
-
-.button_mid:hover {
-    background-color: #111747;
-}
-
-.button_high:hover {
-    background-color: #0c4927;
-}
-
-
-
 
 
 .product_description ul {
@@ -181,15 +165,36 @@ button:hover {
     text-align: left;
 }
 
-.get_started {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* lub justify-content: space-between; */
-    padding: 0; /* Usuń domyślne wcięcie dla elementów listy */
-    list-style-type: none; /* Usuń punkty przed elementami listy */
+
+
+
+
+/*czesc arkusza dla home*/
+
+h1 {
+    font-size: 30px;
 }
 
-.get_started li {
-    flex-basis: calc(0); /* Aby mieć odstęp między elementami, odjęto 20px */
+.div_hh .alternating-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
 
+.div_hh .alternating-content img {
+    max-width: 45%; /* Adjust the image width as needed */
+    border-radius: 23px;
+    max-width: 150px;
+}
+
+.div_hh .alternating-content p {
+    max-width: 50%; /* Adjust the description width as needed */
+    text-align: left;
+    margin-left: 20px; /* Add spacing between image and text */
+}
+
+#start {
+    font-size: 100px;
 }
