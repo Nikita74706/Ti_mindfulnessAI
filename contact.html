@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Betterment App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="111.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
 
@@ -21,9 +22,65 @@
     </nav>
 
     <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to Your Betterment App. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2>Contact</h2>
+        <h4>Got a question? Need a help? Or just want to chat? You've come to the right place!</h4>
         <!-- Add your widgets and content here -->
+        <form action="">
+            <main>
+                <form>
+                    <h4>Username</h4>
+                    <div class="form_wrapper">
+                        <input id="input" type="text" required>
+                        <label for="input"></label>
+                    </div>
+                    <br>
+                    <h4>Email</h4>
+                    <div class="form_wrapper">
+                        <input id="email" type="email" required>
+                        <label for="input"></label>
+                    </div>
+                    <br>
+                    <h4>Massage</h4>
+                    <div class="form_wrapper">
+                    <textarea rows="10" cols="50" id="content" name="content" ></textarea>
+                    <div>
+                    </div>
+                    <label for="content"></label>
+                    </div>
+                    <br>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </main>
+        </form>
+        <ul class="wrapper">
+            <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+    
+            <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span><i class="fab fa-twitter"></i></span>
+            </li>
+    
+            <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+            </li>
+    
+            <li class="icon youtube">
+                <span class="tooltip">Youtube</span>
+                <span><i class="fab fa-youtube"></i></span>
+            </li>
+            <li class="icon linkedin">
+                <span class="tooltip">linkedin</span>
+                <span><i class="fab fa-linkedin"></i></span>
+            </li>
+        </ul>
+        <br>
+        <br>
     </section>
 
     <footer>
