@@ -1,22 +1,5 @@
 
 
-section {
-    margin: 15px;
-}
-
-footer {
-  background-image: url('https://scontent.fpoz2-1.fna.fbcdn.net/v/t1.15752-9/419729779_1593375718092421_1081524876813076726_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=0jBkCWI2NT4AX98OjqR&_nc_ht=scontent.fpoz2-1.fna&oh=03_AdToqqnvxFSaklEESn6ZQAgFhN7YXFUAh3Qp2DpYVST3iA&oe=65D3649A');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-
 /* Style the container with a rounded border, grey background and some padding and margin */
 .block {
     border: 2px solid wheat;
