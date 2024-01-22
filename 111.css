@@ -3,7 +3,7 @@
 /* Style the container with a rounded border, grey background and some padding and margin */
 .block {
     border-radius: 23px;
-    border: 2px solid rgb(92, 92, 92);
+    border: 2px solid rgb(20, 19, 19);
     background-color: transparent;
     backdrop-filter: blur(25px);
     padding: 16px;
@@ -44,14 +44,16 @@
 }
 
 .simple-rating{
+    background-color: rgba(22, 16, 71, 0.97);;
+    border-radius: 23px;
     position: relative;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
 }
 .simple-rating::before{
     content: "★★★★★";
     display: block;
-    color: #eed117;
+    color: #b8af36;
 }
 .simple-rating__items{
     position: absolute;
